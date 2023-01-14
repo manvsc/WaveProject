@@ -1,6 +1,6 @@
 # Wave Project
 
-Start with 
+Start with adding a .env file
 ```
 npm install
 npx hardhat run scripts/deploy.js --network goerli
