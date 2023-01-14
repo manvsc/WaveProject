@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Wave Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Start with 
+```
+npm install
+npx hardhat run scripts/deploy.js --network goerli
+```
 
-Try running some of the following tasks:
+check website: https://waveportal.manvsc.repl.co/ 
+
+
+Try running local:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+npx hardhat run scripts/deploy.js --network localhost
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/run.js --network localhost
 ```
